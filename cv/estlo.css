@@ -1,0 +1,197 @@
+
+body{
+    background-color: rgb(79, 141, 202)
+}
+
+.inicio h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    bottom: 140px;
+}
+.inicio h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    bottom: 140px;
+}
+.inicio p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    bottom: 140px;
+}
+
+.experiencia h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    bottom: 140px;
+}
+.experiencia p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    bottom: 140px;
+}
+
+
+.educacion h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    bottom: 120px;
+    font-weight: bold;
+}
+ol{
+    list-style-type: none;
+}
+.educacion ol{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    bottom: 120px;
+    
+}
+
+#img1{
+    display: flex;
+    position: relative;
+    top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid whitesmoke;
+
+}
+
+.skills{
+    position: relative;
+    bottom: 350px;
+}
+
+#skillsL{
+    position: relative;
+    right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.metod{
+    position: relative;
+    bottom: 320px;
+}
+
+.metod h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#metodL{
+    position: relative;
+    right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.skills h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#contenedo {
+    display: flex;
+    justify-content: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 55px;
+    border: solid 2px black;
+    border-radius: 15px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    font-family: "Pathway Extreme", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell,
+        "Noto Sans", sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+        "Helvetica Neue", sans-serif;
+}
+
+#contenedo>div {
+    text-align: center;
+    color: #49362e;
+    border: 1px solid rgb(173, 146, 140)(46, 46, 47);
+    background-color: rgb(173, 146, 140)(53, 53, 54);
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*border-radius: 10px;*/
+}
+
+.contf {
+    background-color: black;
+    padding: 20px;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+   
+}
+
+.div1 {
+    display: flex;
+    margin-left: 14%;
+    color: white;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+   
+}
+
+
+
+#img2{
+    width: 40px;
+    height: 40px;
+   position: relative;
+   right: 120px;
+   position: relative;
+   top: 30px;
+
+}
+
+#img3{
+    width: 40px;
+    height: 40px;
+   
+   position: relative;
+   bottom: 15px;
+   right: 60px;
+   
+
+}
+
+#img4{
+    width: 40px;
+    height: 40px;
+   position: relative;
+   bottom: 15px;
+   right: 50px;
+   
+
+}
+
+

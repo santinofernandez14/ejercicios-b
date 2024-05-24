@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <nav id="contenedo">
+
+        <div id="home">
+            <a href="../../index.html" style="text-decoration: none;color:white">Home</a>
+        </div>
+        <div id="calculadora.E">
+            <a href="./calculadora.html"
+                style="text-decoration: none; color:white">Calculadora</a>
+        </div>
+        <div id="coursell.E">
+            <a href="../coursell/coursell.html"
+                style="text-decoration: none; color:white">Coursell</a>
+    
+        </div>
+        <div id="estilos.E">
+            <a href="../estilos/estilos.html" style="text-decoration: none; color:white">Estilos</a>
+    
+        </div>
+    </nav>
+
+    <!-- 10) Realiza una página que implemente una calculadora aritmética. -->
+    <main>
+    <div id="calculadora">
+        <h2>CALCULADORA</h2>
+        <input type="text" id="caja" disabled>
+        <br>
+        <br>
+        <button onclick="agregarCaracter('7')">7</button>
+        <button onclick="agregarCaracter('8')">8</button>
+        <button onclick="agregarCaracter('9')">9</button>
+        <button onclick="agregarCaracter('*')">*</button>
+        <br>
+        <button onclick="agregarCaracter('4')">4</button>
+        <button onclick="agregarCaracter('5')">5</button>
+        <button onclick="agregarCaracter('6')">6</button>
+        <button onclick="agregarCaracter('-')">-</button>
+        <br>
+        <button onclick="agregarCaracter('1')">1</button>
+        <button onclick="agregarCaracter('2')">2</button>
+        <button onclick="agregarCaracter('3')">3</button>
+        <button onclick="agregarCaracter('+')">+</button>
+        <br>
+        <button id="cero" onclick="agregarCaracter('0')">0</button>
+        <button id="borrar" onclick="limpiar()">C</button>
+        <button id="dividir" onclick="agregarCaracter('/')">/</button>
+        <button id="igual" onclick="calcular()">=</button>
+    </div>
+</main>
+
+<footer>
+    <div class="contf">
+        
+            <div class="div1"><span>redes sociales</span> 
+                <div>
+                <span id="l"><a href="https://www.linkedin.com/in/santino-fernandez-91018329a/"><img id="img2" src="../../imagen/img2.png" alt=""></a></span><br>
+                <span><a href="https://github.com/santinofernandez14?tab=repositories"><img id="img3" src="../../imagen/img3.png" alt=""></a></span>
+                <span><a href="https://www.facebook.com/santino.fernandez.1650/"><img id="img4" src="../../imagen/img4.webp" alt=""></a></span>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
